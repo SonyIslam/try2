@@ -1,0 +1,312 @@
+/* ==========================================================================
+basic
+========================================================================== */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* ==========================================================================
+basic
+========================================================================== */
+
+
+/* ==========================================================================
+reuseable
+========================================================================== */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 80px;
+}
+
+.btn {
+    background: #fe0;
+    text-decoration: none;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+}
+
+/* ==========================================================================
+reuseable
+========================================================================== */
+
+
+/* ==========================================================================
+food
+========================================================================== */
+.food {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/restaurant-hero-02.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+    font-size: 72px;
+    color: #fff;
+    margin-top: 111px;
+}
+
+.food p {
+    color: #bfbfbf !important;
+    text-align: center;
+    font-size: 26px;
+    /*! width: 700px; */
+    margin-top: 24px;
+    margin-top: 50px;
+    line-height: 36px;
+}
+
+.button {
+    margin-top: 112px;
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.food .btn-menu {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.food .btn-menu:hover {
+    background-color: hsla(0, 0%, 100%, .2);
+}
+
+.food .btn-reservation {
+    margin-left: 5px;
+    padding: 12px;
+}
+
+/* ==========================================================================
+food
+========================================================================== */
+
+
+
+
+/* ==========================================================================
+royel
+========================================================================== */
+.royel {}
+
+.col-1 {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+
+h5 {
+    color: #bfbfbf !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 62px;
+}
+
+h5::after {
+    content: "";
+
+    display: block;
+    height: 3px;
+    /*! color: #eee; */
+    background: #d2b338;
+    width: 79px;
+    margin-top: 12px;
+}
+
+h2 {
+    font-size: 52px;
+    margin-top: 35px;
+    color: #4f3e3e;
+}
+
+.royel p {
+    color: #939393 !important;
+    line-height: 28px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+
+/* ==========================================================================
+royel
+========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+responsive
+========================================================================== */
+
+@media screen and (max-width: 1024px) {
+
+    .col-1 {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: center;
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+        font-size: 57px;
+        color: #fff;
+        margin-top: 111px;
+    }
+}
+
+@media screen and (max-width: 693px) {
+    h2 {
+        font-size: 46px;
+        margin-top: 35px;
+        color: #4f3e3e;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    h2 {
+        font-size: 39px;
+        margin-top: 35px;
+        color: #4f3e3e;
+    }
+
+
+}
+
+
+@media screen and (max-width: 617px) {
+    h1 {
+        text-align: center;
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+        font-size: 46px;
+        color: #fff;
+        margin-top: 111px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-top: 35px;
+        color: #4f3e3e;
+    }
+}
+
+@media screen and (max-width: 571px) {
+    h1 {
+        text-align: center;
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+        font-size: 35px;
+        color: #fff;
+        margin-top: 111px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 35px;
+        color: #4f3e3e;
+    }
+
+
+}
+
+@media screen and (max-width: 542px) {
+    h1 {
+        text-align: center;
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+        font-size: 25px;
+        color: #fff;
+        margin-top: 111px;
+    }
+
+    .food p {
+        color: #bfbfbf !important;
+        text-align: center;
+        font-size: 22px;
+        margin-top: 24px;
+        margin-top: 25px;
+        line-height: 36px;
+        text-align: justify;
+    }
+
+    .food .btn-menu {
+        background: none;
+        background-color: rgba(0, 0, 0, 0);
+        color: #fff;
+        border: 2px solid #fff;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .food .btn-reservation {
+        margin-left: 5px;
+        padding: 12px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    h1 {
+        text-align: center;
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+        font-size: 23px;
+        color: #fff;
+        margin-top: 111px;
+        align-content: baseline;
+    }
+
+    h2 {
+        font-size: 21px;
+        margin-top: 35px;
+        color: #4f3e3e;
+
+    }
+
+    .food p {
+        color: #bfbfbf !important;
+        text-align: center;
+        font-size: 17px;
+        margin-top: 24px;
+        margin-top: 25px;
+        line-height: 36px;
+        text-align: justify;
+    }
+}
+
+/* ==========================================================================
+responsive
+========================================================================== */
